@@ -1,0 +1,13 @@
+@import "variables.scss";
+.images {
+  width: 100px;
+  height: 100px;
+  margin: 25px 35px 0px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 20px;
+}
