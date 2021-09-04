@@ -1,0 +1,49 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin: 1rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  height: 13rem;
+  border: 0.02rem solid #d0d2d4;
+
+  &_severalArticles {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 20px 35px 0px;
+  }
+
+  &_link {
+    text-decoration: none;
+  }
+
+  &_title {
+    padding-top: 0.5rem;
+    color: #2b885d;
+    font-family: sans-serif;
+  }
+
+  &_price {
+    padding-top: 0.5rem;
+    color: #860d1e;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  &_stock {
+    color: #333634;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 9.375rem;
+    background-color: rgb(183, 218, 184);
+    text-align: center;
+    height: 6.5rem;
+    border-radius: 7rem;
+  }
+}
