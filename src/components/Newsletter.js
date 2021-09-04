@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../styles/newsletter.scss";
-
+import styles from "./Newsletter.module.scss";
+import NewsletterImage from "../images/newsletter.png";
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
@@ -15,25 +15,36 @@ export default function Newsletter() {
   };
 
   return (
-    <div className="newsletter">
+    <section className={styles.newsletter}>
+      <img
+        src={NewsletterImage}
+        alt="newsletter"
+        className={styles.newsletter_image}
+      />
       {isSubscribed ? (
-        <p>Te has suscrito a nuestra newsletter</p>
+        <div>
+          <p className={styles.newsletter_subtitle}>Gracias por suscribirte:</p>
+          <p className={styles.newsletter_email}>{email}</p>
+        </div>
       ) : (
         <div>
-          <h3>Subscribe to the newsletter!</h3>
+          <h3 className={styles.newsletter_title}>
+            Subscribete a nuestra newsletter!
+          </h3>
 
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className={styles.newsletter_form}>
             <input
               type="email"
-              className=""
+              className={styles.newsletter_input}
               placeholder="email"
               value={email}
               onChange={handleOnchange}
+              required
             />
-            <input type="submit" value="Submit" />
+            <input type="submit" value="¡Suscribirme!" />
           </form>
         </div>
       )}
-    </div>
+    </section>
   );
 }
