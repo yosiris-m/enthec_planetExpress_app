@@ -1,0 +1,46 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #f7f8f9;
+  height: 6rem;
+  position: relative;
+  line-height: 1.6;
+  border-top: 0.02rem solid #d3d5d8;
+
+  &_copy {
+    display: flex;
+    flex-direction: column;
+    color: #808891;
+    padding-right: 3rem;
+  }
+
+  &_cart {
+    text-decoration: none;
+    color: #808891;
+    padding-right: 3rem;
+  }
+
+  &_aboutUs {
+    text-decoration: none;
+    color: #808891;
+    padding-right: 3rem;
+  }
+
+  &_bar {
+    color: #d3d5d8;
+    padding-right: 3rem;
+  }
+
+  &_Author {
+    padding-left: 0.5rem;
+  }
+
+  &_AuthorName {
+    color: #84be38;
+    padding-left: 0.3rem;
+  }
+}

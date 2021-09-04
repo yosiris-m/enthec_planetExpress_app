@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 28rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.image {
+  width: 5rem;
+  border: 1px solid #ccc;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  padding-left: 2rem;
+
+  &_title {
+    color: #2b885d;
+    font-family: "Courier New";
+    font-size: 1.3rem;
+  }
+
+  &_price {
+    color: #860d1e;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+}

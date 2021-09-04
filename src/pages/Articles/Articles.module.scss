@@ -1,0 +1,26 @@
+.box {
+  background: hsl(0, 0%, 96%);
+  border-top: 0.1rem solid #d3d5d8;
+  border-bottom: 0.1rem solid #d3d5d8;
+
+  &_title {
+    text-align: center;
+    font-family: "Courier New";
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding: 1.5rem;
+    color: #4e5155;
+  }
+
+  &_articles {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+}
