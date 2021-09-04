@@ -1,0 +1,19 @@
+.name {
+  color: blue;
+  text-align: center;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: 0fr;
+  margin-top: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+@media all and (min-width: 1200px) {
+  .members {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    justify-content: space-evenly;
+  }
+}
