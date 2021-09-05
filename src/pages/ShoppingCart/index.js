@@ -5,15 +5,18 @@ import styles from "./ShoppingCart.module.scss";
 
 function ShoppingCart({ cart }) {
   return (
-    <div className={styles.shopping}>
-      <h1>Mi carrito</h1>
-      <h2>Productos en el carrito</h2>
+    <div className={styles.cart}>
+      <h2 className={styles.cart_title}>Mi carrito</h2>
+
       {cart.length ? (
         <section className={styles.wrapper}>
-          <div className={styles.list}>
-            {cart.map((article, idx) => (
-              <CartItem key={idx} article={article} />
-            ))}
+          <div>
+            <h3 className={styles.cart_subtitle}>Productos en el carrito</h3>
+            <div className={styles.list}>
+              {cart.map((article, idx) => (
+                <CartItem key={idx} article={article} />
+              ))}
+            </div>
           </div>
 
           <CartSummary cart={cart} />

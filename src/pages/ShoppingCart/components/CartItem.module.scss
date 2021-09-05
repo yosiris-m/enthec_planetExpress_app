@@ -1,33 +1,33 @@
 .box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-width: 28rem;
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
-}
+  border-bottom: 1px solid #717272;
 
-.image {
-  width: 5rem;
-  border: 1px solid #ccc;
-}
-
-.details {
-  display: flex;
-  flex-direction: column;
-  line-height: 2.5rem;
-  padding-left: 2rem;
-
-  &_title {
-    color: #2b885d;
-    font-family: "Courier New";
-    font-size: 1.3rem;
+  @media all and (min-width: 1220px) {
+    flex-direction: row;
+    justify-content: flex-start;
   }
 
-  &_price {
-    color: #860d1e;
-    font-family: sans-serif;
-    font-weight: bold;
+  &_image {
+    width: 6rem;
+    border: 1px solid #ccc;
+  }
+
+  &_details {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+
+  &_title {
+    font-family: "Courier New";
+    font-size: 1.1rem;
+    color: rgb(20, 83, 12);
+    text-decoration: none;
   }
 }

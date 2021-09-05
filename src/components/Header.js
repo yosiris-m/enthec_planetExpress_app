@@ -5,18 +5,16 @@ import styles from "./Header.module.scss";
 
 function Header({ setFilterText, cart }) {
   return (
-    <header>
+    <header className={styles.box}>
       <div className={styles.topnav}>
         <Link to="/">
           <img src={logo} className={styles.topnav_logo} alt="imagen" />
         </Link>
         <div>
-          <Link to="/cart" className={styles.topnav_cart}>
-            <p className={styles.topnav_myCart}> Mi carrito</p>
-            <div className={styles.topnav_cart1}>
-              <span className={styles.topnav_count}> {cart.length}</span>
-              <i className="searchCar_cart fas fa-shopping-cart fa-2x "></i>
-            </div>
+          <Link to="/cart" className={styles.cart}>
+            <i className="fas fa-shopping-cart"></i>
+            <span>Mi carrito</span>
+            <span className={styles.cart_count}>{cart.length}</span>
           </Link>
         </div>
       </div>

@@ -5,7 +5,7 @@ import Cap from "../images/gorra_de_beisbol.jpg";
 import winterSweatshirt from "../images/sudadera_invierno.jpg";
 import sweatshirt from "../images/sudadera.jpg";
 import cup from "../images/taza.jpeg";
-import sweatshirtBlack from "../images/SUDADERA.jpg";
+import sweatshirtBlack from "../images/sudadera_negra.jpg";
 const listOfArticles = [
   {
     id: "1",

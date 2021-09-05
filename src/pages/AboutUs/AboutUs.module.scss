@@ -1,19 +1,21 @@
 .name {
-  color: blue;
   text-align: center;
 }
 
 .members {
-  display: grid;
-  grid-template-columns: 0fr;
-  margin-top: 20px;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-@media all and (min-width: 1200px) {
-  .members {
+  margin-top: 2rem;
+
+  @media all and (min-width: 768px) {
     display: grid;
-    grid-template-columns: 0fr 0fr 0fr;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+
+  @media all and (min-width: 1220px) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

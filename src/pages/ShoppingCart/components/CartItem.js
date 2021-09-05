@@ -5,13 +5,13 @@ import styles from "./CartItem.module.scss";
 function CartItem({ article }) {
   return (
     <div className={styles.box}>
-      <img src={article.image} alt="article" className={styles.image} />
-      <div className={styles.details}>
-        <div className={styles.details_title}>
-          <Link to={`/article/${article.id}`}>{article.name}</Link>
-        </div>
+      <img className={styles.box_image} src={article.image} alt="article" />
+      <div className={styles.box_details}>
+        <Link className={styles.box_title} to={`/article/${article.id}`}>
+          {article.name}
+        </Link>
 
-        <div className={styles.details_price}>
+        <div>
           {formatter.format(article.price)}
           <span> (1 unidad)</span>
         </div>

@@ -8,8 +8,8 @@ function CartSummary({ cart }) {
   const totalWeight = cart.reduce((acc, current) => acc + current.weight, 0);
 
   return (
-    <section>
-      <h3>Resumen del carrito</h3>
+    <section className={styles.wrapper}>
+      <h3 className={styles.title}>Resumen del carrito</h3>
 
       <div className={styles.table}>
         <div>
@@ -25,7 +25,7 @@ function CartSummary({ cart }) {
           Gastos de envio: <span>{formatter.format(shippingCosts)}</span>
         </div>
         <div>
-          Total (IVA incluido):{" "}
+          Total (IVA incluido):
           <span className={styles.table_total}>
             {formatter.format(totalPrice)}
           </span>
