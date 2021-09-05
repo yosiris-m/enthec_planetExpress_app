@@ -29,7 +29,7 @@ export default function Newsletter() {
               Gracias por suscribirte:
             </p>
             <p className={styles.newsletter_email}>
-              <i class="fa fa-envelope"></i> {email}
+              <i className="fa fa-envelope"></i> {email}
             </p>
           </div>
         ) : (

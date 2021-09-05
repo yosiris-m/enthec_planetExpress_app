@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Button from "./Button";
 import styles from "./SearchBox.module.scss";
 
@@ -15,7 +14,7 @@ function SearchBox({ onTextChange }) {
         <Button
           label={
             <>
-              <i class="fa fa-search"></i>
+              <i className="fa fa-search"></i>
               <span> Buscar</span>
             </>
           }

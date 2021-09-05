@@ -16,8 +16,8 @@ function AboutUs() {
     <section className={styles.box}>
       <h1 className={styles.name}>About Us!</h1>
       <div className={styles.members}>
-        {members.map((member) => (
-          <Member member={member} />
+        {members.map((member, idx) => (
+          <Member member={member} key={idx} />
         ))}
       </div>
     </section>

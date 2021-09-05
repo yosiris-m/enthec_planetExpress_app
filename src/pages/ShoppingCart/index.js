@@ -23,7 +23,7 @@ function ShoppingCart({ cart }) {
         </section>
       ) : (
         <section className={styles.noArticles}>
-          <i class="far fa-meh fa-3x"></i>
+          <i className="far fa-meh fa-3x"></i>
           <span>No has añadido artículos a tu cesta.</span>
           <Link to="/">Añadir artículos</Link>
         </section>

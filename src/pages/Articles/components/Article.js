@@ -4,7 +4,7 @@ import styles from "./Article.module.scss";
 
 function Article({ item }) {
   return (
-    <Link to={`/article/${item.id}`} key={item.id} className={styles.box_link}>
+    <Link to={`/article/${item.id}`} className={styles.box_link}>
       <div className={styles.box}>
         <img
           src={item.image}

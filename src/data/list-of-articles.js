@@ -51,7 +51,7 @@ const listOfArticles = [
   {
     id: "5",
     name: "T-Shirt",
-    weight: "80gr ",
+    weight: 80,
     image: sweatshirt,
     description: "de algodón",
     price: 6,
