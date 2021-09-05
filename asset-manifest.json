@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/enthec_planetExpress_app/static/css/main.d90241d8.chunk.css",
-    "main.js": "/enthec_planetExpress_app/static/js/main.fc913f8a.chunk.js",
-    "main.js.map": "/enthec_planetExpress_app/static/js/main.fc913f8a.chunk.js.map",
+    "main.js": "/enthec_planetExpress_app/static/js/main.27e9b3c0.chunk.js",
+    "main.js.map": "/enthec_planetExpress_app/static/js/main.27e9b3c0.chunk.js.map",
     "runtime-main.js": "/enthec_planetExpress_app/static/js/runtime-main.25b47abb.js",
     "runtime-main.js.map": "/enthec_planetExpress_app/static/js/runtime-main.25b47abb.js.map",
-    "static/js/2.0c205f10.chunk.js": "/enthec_planetExpress_app/static/js/2.0c205f10.chunk.js",
-    "static/js/2.0c205f10.chunk.js.map": "/enthec_planetExpress_app/static/js/2.0c205f10.chunk.js.map",
+    "static/js/2.1e216847.chunk.js": "/enthec_planetExpress_app/static/js/2.1e216847.chunk.js",
+    "static/js/2.1e216847.chunk.js.map": "/enthec_planetExpress_app/static/js/2.1e216847.chunk.js.map",
     "static/js/3.6345da16.chunk.js": "/enthec_planetExpress_app/static/js/3.6345da16.chunk.js",
     "static/js/3.6345da16.chunk.js.map": "/enthec_planetExpress_app/static/js/3.6345da16.chunk.js.map",
     "index.html": "/enthec_planetExpress_app/index.html",
     "static/css/main.d90241d8.chunk.css.map": "/enthec_planetExpress_app/static/css/main.d90241d8.chunk.css.map",
-    "static/js/2.0c205f10.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.0c205f10.chunk.js.LICENSE.txt",
-    "static/media/SUDADERA.d771ba9e.jpg": "/enthec_planetExpress_app/static/media/SUDADERA.d771ba9e.jpg",
+    "static/js/2.1e216847.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.1e216847.chunk.js.LICENSE.txt",
     "static/media/camiseta.135f01df.jpg": "/enthec_planetExpress_app/static/media/camiseta.135f01df.jpg",
     "static/media/camiseta_gris.6dccb286.jpg": "/enthec_planetExpress_app/static/media/camiseta_gris.6dccb286.jpg",
     "static/media/camiseta_roja.fde1e9fc.jpg": "/enthec_planetExpress_app/static/media/camiseta_roja.fde1e9fc.jpg",
@@ -21,12 +20,13 @@
     "static/media/newsletter.19ec998d.png": "/enthec_planetExpress_app/static/media/newsletter.19ec998d.png",
     "static/media/sudadera.89a3e45f.jpg": "/enthec_planetExpress_app/static/media/sudadera.89a3e45f.jpg",
     "static/media/sudadera_invierno.6ef94afd.jpg": "/enthec_planetExpress_app/static/media/sudadera_invierno.6ef94afd.jpg",
+    "static/media/sudadera_negra.d771ba9e.jpg": "/enthec_planetExpress_app/static/media/sudadera_negra.d771ba9e.jpg",
     "static/media/taza.29519f49.jpeg": "/enthec_planetExpress_app/static/media/taza.29519f49.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.25b47abb.js",
-    "static/js/2.0c205f10.chunk.js",
+    "static/js/2.1e216847.chunk.js",
     "static/css/main.d90241d8.chunk.css",
-    "static/js/main.fc913f8a.chunk.js"
+    "static/js/main.27e9b3c0.chunk.js"
   ]
 }
