@@ -3,7 +3,7 @@ import styles from "./SearchBox.module.scss";
 
 function SearchBox({ onTextChange }) {
   return (
-    <>
+    <div className={styles.wrapper}>
       <div className={styles.searchBox}>
         <input
           type="text"
@@ -11,20 +11,9 @@ function SearchBox({ onTextChange }) {
           placeholder="Camisetas de invierno"
           onChange={(ev) => onTextChange(ev.target.value)}
         />
-        <Button
-          label={
-            <>
-              <i className="fa fa-search"></i>
-              <span> Buscar</span>
-            </>
-          }
-          to="/"
-        />
+        <Button label={<i className="fa fa-search"></i>} to="/" />
       </div>
-      <p className={styles.searchBox_send}>
-        Envio gratis por compra superiores a 45.99€
-      </p>
-    </>
+    </div>
   );
 }
 

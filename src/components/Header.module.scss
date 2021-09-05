@@ -9,10 +9,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 0.5rem 0 0 0.5rem;
+  justify-content: space-between;
+  padding: 0.5rem;
   max-width: $max-page-width;
   margin: 0 auto;
+
   @media all and (min-width: 768px) {
     padding-top: 2rem;
   }
@@ -49,4 +50,12 @@
     text-align: center;
     box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.5);
   }
+}
+
+.sendBox {
+  margin-bottom: 0;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: rgb(129, 124, 124);
 }
