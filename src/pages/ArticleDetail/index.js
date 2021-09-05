@@ -1,5 +1,6 @@
 import Countdown from "react-countdown";
 import { Link, useParams } from "react-router-dom";
+import Button from "../../components/Button";
 import formatter from "../../helpers/formatter";
 import styles from "./ArticleDetail.module.scss";
 
@@ -16,9 +17,7 @@ function ArticleDetail({ articles, onAddToCart }) {
       <div className={styles.box}>
         <img src={article.image} alt="tShirt" className={styles.box_image} />
         <div>
-          <button className={styles.box_add} onClick={handleAddToCartClick}>
-            Añadir a la cesta
-          </button>
+          <Button label="Añadir a la cesta" onClick={handleAddToCartClick} />
         </div>
         <div className={styles.box_container}>
           <p className={styles.box_title}>{article.name}</p>

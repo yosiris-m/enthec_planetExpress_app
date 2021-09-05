@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./Button";
 import styles from "./SearchBox.module.scss";
 
 function SearchBox({ onTextChange }) {
@@ -11,9 +12,15 @@ function SearchBox({ onTextChange }) {
           placeholder="Camisetas de invierno"
           onChange={(ev) => onTextChange(ev.target.value)}
         />
-        <Link to="/" className={styles.searchBox_searchSend}>
-          Buscar
-        </Link>
+        <Button
+          label={
+            <>
+              <i class="fa fa-search"></i>
+              <span> Buscar</span>
+            </>
+          }
+          to="/"
+        />
       </div>
       <p className={styles.searchBox_send}>
         Envio gratis por compra superiores a 45.99€

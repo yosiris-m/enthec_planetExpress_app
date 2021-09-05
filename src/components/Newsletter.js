@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./Newsletter.module.scss";
 import NewsletterImage from "../images/newsletter.png";
+import Button from "./Button";
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
@@ -44,11 +45,7 @@ export default function Newsletter() {
                 onChange={handleOnchange}
                 required
               />
-              <input
-                type="submit"
-                value="¡Suscribirme!"
-                className={styles.subscribe}
-              />
+              <Button type="submit" label="¡Suscribirme!" />
             </form>
           </div>
         )}
