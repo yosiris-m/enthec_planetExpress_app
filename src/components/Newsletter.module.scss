@@ -35,6 +35,11 @@
     font-weight: normal;
     color: $title-color;
   }
+
+  &_subscribed {
+    text-align: center;
+    color: $success-color;
+  }
 }
 
 .form {

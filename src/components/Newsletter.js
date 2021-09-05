@@ -24,11 +24,13 @@ export default function Newsletter() {
           className={styles.newsletter_image}
         />
         {isSubscribed ? (
-          <div>
+          <div className={styles.newsletter_subscribed}>
             <p className={styles.newsletter_subtitle}>
               Gracias por suscribirte:
             </p>
-            <p className={styles.newsletter_email}>{email}</p>
+            <p className={styles.newsletter_email}>
+              <i class="fa fa-envelope"></i> {email}
+            </p>
           </div>
         ) : (
           <div>
