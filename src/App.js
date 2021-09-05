@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import listOfArticles from "./data/list-of-articles";
 import { useState } from "react";
 import Footer from "./components/Footer";
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <BrowserRouter basename="/enthec_planetExpress_app">
       <Header setFilterText={setFilterText} cart={cart} />
       <Switch>
         <Route path="/" exact>
@@ -42,7 +42,7 @@ function App() {
       </Switch>
       <Newsletter />
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
