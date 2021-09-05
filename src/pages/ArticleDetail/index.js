@@ -23,11 +23,11 @@ function ArticleDetail({ articles, onAddToCart }) {
         <div className={styles.box_container}>
           <p className={styles.box_title}>{article.name}</p>
           <p className={styles.box_weight}>Peso: {article.weight} gr</p>
-          <p className={styles.box_price}>
-            Precio: {formatter.format(article.price)}
-          </p>
           <p className={styles.box_description}>
             Material: {article.description}
+          </p>
+          <p className={styles.box_price}>
+            Precio: {formatter.format(article.price)}
           </p>
         </div>
 

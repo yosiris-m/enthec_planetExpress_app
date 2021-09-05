@@ -1,13 +1,17 @@
+@import "../styles/core/variables";
+@import "../styles/core/mixins";
+
 .box {
-  background: radial-gradient(circle, #eeeeee, #d7f0d9);
+  @include bg-gradient;
 }
+
 .topnav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   padding: 0.5rem 0 0 0.5rem;
-  max-width: 70rem;
+  max-width: $max-page-width;
   margin: 0 auto;
   @media all and (min-width: 768px) {
     padding-top: 2rem;
@@ -22,7 +26,7 @@
 }
 
 .cart {
-  background-color: #3d9266;
+  background-color: $success-color;
   border-radius: 0.3rem;
   padding: 0.5rem;
   color: #fff;

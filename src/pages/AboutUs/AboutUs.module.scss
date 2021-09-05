@@ -1,3 +1,5 @@
+@import "../../styles/core/variables";
+
 .name {
   text-align: center;
 }
@@ -11,7 +13,7 @@
   @media all and (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 70rem;
+    max-width: $max-page-width;
     margin: 0 auto;
   }
 

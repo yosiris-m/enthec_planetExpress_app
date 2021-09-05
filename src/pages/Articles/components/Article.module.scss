@@ -1,3 +1,5 @@
+@import "../../../styles/core/variables";
+
 .box {
   display: flex;
   flex-direction: column;
@@ -25,13 +27,13 @@
 
   &_title {
     padding-top: 0.5rem;
-    color: #2b885d;
+    color: $success-color;
     font-family: sans-serif;
   }
 
   &_price {
     padding-top: 0.5rem;
-    color: #860d1e;
+    color: $primary-color;
     font-family: sans-serif;
     font-weight: bold;
   }

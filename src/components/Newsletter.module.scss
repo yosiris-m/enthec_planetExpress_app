@@ -1,5 +1,8 @@
+@import "../styles/core/variables";
+@import "../styles/core/mixins";
+
 .wrapper {
-  background: radial-gradient(circle, #eeeeee, #d7f0d9);
+  @include bg-gradient;
   padding: 2rem;
 }
 
@@ -13,7 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 70rem;
+    max-width: $max-page-width;
     margin: 0 auto;
   }
 
@@ -25,12 +28,12 @@
   &_title {
     font-size: 2rem;
     font-weight: normal;
-    color: #4e5155;
+    color: $title-color;
   }
 
   &_subTitle {
     font-weight: normal;
-    color: #4e5155;
+    color: $title-color;
   }
 }
 
@@ -52,5 +55,5 @@
   color: #fff;
   border-radius: 0.2rem;
   border: 0.02rem solid #ccc;
-  background-color: #f58667;
+  background-color: $primary-color;
 }

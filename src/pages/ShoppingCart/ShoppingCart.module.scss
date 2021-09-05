@@ -1,6 +1,8 @@
+@import "../../styles/core/variables";
+
 .cart {
   text-align: center;
-  max-width: 70rem;
+  max-width: $max-page-width;
   margin: 0 auto;
   padding: 2rem;
 
