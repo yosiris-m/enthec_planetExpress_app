@@ -13,7 +13,7 @@ function ArticleDetail({ articles, onAddToCart }) {
   };
 
   return (
-    <div className={styles.box}>
+    <section className={styles.box}>
       <img src={article.image} alt="tShirt" className={styles.box_image} />
       <div>
         <Button label="Añadir a la cesta" onClick={handleAddToCartClick} />
@@ -34,7 +34,7 @@ function ArticleDetail({ articles, onAddToCart }) {
         <p>Esta oferta termina en:</p>
         <Countdown date={article.offerTimeout} className={styles.box_timeNow} />
       </div>
-    </div>
+    </section>
   );
 }
 

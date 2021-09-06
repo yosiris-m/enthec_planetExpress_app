@@ -6,7 +6,7 @@ import styles from "./Header.module.scss";
 function Header({ setFilterText, cart }) {
   return (
     <header className={styles.box}>
-      <div className={styles.topnav}>
+      <nav className={styles.topnav}>
         <Link to="/">
           <img src={logo} className={styles.topnav_logo} alt="imagen" />
         </Link>
@@ -17,7 +17,7 @@ function Header({ setFilterText, cart }) {
             <span className={styles.cart_count}>{cart.length}</span>
           </Link>
         </div>
-      </div>
+      </nav>
 
       <SearchBox onTextChange={(text) => setFilterText(text)} />
       <p className={styles.sendBox}>
