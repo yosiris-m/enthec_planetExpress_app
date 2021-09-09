@@ -1,4 +1,4 @@
-# Enthec Solutions Frontend Challenge
+# Frontend Challenge
 
 In this repository you will find the source code for the Enthec Solutions front-end challenge.
 
