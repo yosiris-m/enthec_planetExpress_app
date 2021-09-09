@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Countdown from "react-countdown";
 import { Link, useParams } from "react-router-dom";
 import Button from "../../components/Button";
@@ -28,7 +29,6 @@ function ArticleDetail({ articles, onAddToCart }) {
           Precio: {formatter.format(article.price)}
         </p>
       </div>
-
       <Link to="#"></Link>
       <div className={styles.box_time}>
         <p>Esta oferta termina en:</p>

@@ -20,6 +20,10 @@ function App() {
     setCart([...cart, article]);
   };
 
+  const handleDeleteToCart = () => {
+    setCart("");
+  };
+
   return (
     <BrowserRouter basename="/enthec_planetExpress_app">
       <Header setFilterText={setFilterText} cart={cart} />
@@ -34,7 +38,7 @@ function App() {
           />
         </Route>
         <Route path="/cart">
-          <ShoppingCart cart={cart} />
+          <ShoppingCart cart={cart} onClick={handleDeleteToCart} />
         </Route>
         <Route path="/about-us">
           <AboutUs />

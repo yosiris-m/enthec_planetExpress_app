@@ -1,11 +1,16 @@
+import Button from "../../../components/Button";
 import formatter from "../../../helpers/formatter";
 import styles from "./CartSummary.module.scss";
 
-function CartSummary({ cart }) {
+function CartSummary({ cart, onDeleteToCart }) {
   const shippingCosts = 4;
   const articlesPrice = cart.reduce((acc, current) => acc + current.price, 0);
   const totalPrice = shippingCosts + articlesPrice;
   const totalWeight = cart.reduce((acc, current) => acc + current.weight, 0);
+
+  const onclickDeleteToCart = () => {
+    onDeleteToCart("");
+  };
 
   return (
     <section className={styles.wrapper}>
@@ -30,6 +35,9 @@ function CartSummary({ cart }) {
             {formatter.format(totalPrice)}
           </span>
         </div>
+      </div>
+      <div>
+        <Button label="Eliminar " onClick={onclickDeleteToCart} />
       </div>
     </section>
   );

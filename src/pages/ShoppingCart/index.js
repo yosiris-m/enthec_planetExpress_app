@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+
 import CartItem from "./components/CartItem";
 import CartSummary from "./components/CartSummary";
 import styles from "./ShoppingCart.module.scss";
 
-function ShoppingCart({ cart }) {
+function ShoppingCart({ cart, onClick }) {
   return (
     <div className={styles.cart}>
       <h2 className={styles.cart_title}>Mi carrito</h2>
@@ -19,7 +20,7 @@ function ShoppingCart({ cart }) {
             </div>
           </div>
 
-          <CartSummary cart={cart} />
+          <CartSummary cart={cart} onDeleteToCart={onClick} />
         </section>
       ) : (
         <section className={styles.noArticles}>

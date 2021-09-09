@@ -1,8 +1,11 @@
+@import "../../../styles/core/mixins";
+@import "../../../styles/core/variables";
 .wrapper {
   width: 80vw;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 2rem;
+  object-fit: cover;
 
   @media all and (min-width: 768px) {
     width: 100%;
@@ -14,7 +17,24 @@
   font-size: 1rem;
 }
 
+.wrapper_box {
+  background-color: white;
+}
 .img {
   padding-top: 0.5rem;
   width: 10rem;
+  background-color: white;
+  height: 200px;
+}
+
+.wrapper_box {
+  @media all and (min-width: 768px) {
+    max-width: 15.5rem;
+  }
+}
+
+.img {
+  @media all and (min-width: 1220px) {
+    height: 200px;
+  }
 }
