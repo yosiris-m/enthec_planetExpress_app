@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import CartItem from "./components/CartItem";
 import CartSummary from "./components/CartSummary";
 import styles from "./ShoppingCart.module.scss";

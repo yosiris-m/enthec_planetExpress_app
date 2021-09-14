@@ -4,13 +4,16 @@ import { Link, useParams } from "react-router-dom";
 import Button from "../../components/Button";
 import formatter from "../../helpers/formatter";
 import styles from "./ArticleDetail.module.scss";
+import Modal from "./Modal";
 
 function ArticleDetail({ articles, onAddToCart }) {
   const { id } = useParams();
   const article = articles.find((item) => item.id === id);
+  const [stateModal, setStateModal] = useState(false);
 
   const handleAddToCartClick = () => {
     onAddToCart(article);
+    setStateModal(true);
   };
 
   return (
@@ -30,6 +33,7 @@ function ArticleDetail({ articles, onAddToCart }) {
         </p>
       </div>
       <Link to="#"></Link>
+      <Modal state={stateModal} changesState={setStateModal} />
       <div className={styles.box_time}>
         <p>Esta oferta termina en:</p>
         <Countdown date={article.offerTimeout} className={styles.box_timeNow} />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+// import Button from "../../../components/Button";
 import formatter from "../../../helpers/formatter";
 import styles from "./CartItem.module.scss";
 
@@ -17,6 +17,7 @@ function CartItem({ article }) {
             {formatter.format(article.price)}
             <span> (1 unidad)</span>
           </div>
+          {/* <Button label="X" /> */}
         </div>
       </div>
     </div>
