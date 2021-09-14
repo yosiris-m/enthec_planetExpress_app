@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/enthec_planetExpress_app/static/css/main.42f4361a.chunk.css",
-    "main.js": "/enthec_planetExpress_app/static/js/main.23fece98.chunk.js",
-    "main.js.map": "/enthec_planetExpress_app/static/js/main.23fece98.chunk.js.map",
-    "runtime-main.js": "/enthec_planetExpress_app/static/js/runtime-main.72ff27e0.js",
-    "runtime-main.js.map": "/enthec_planetExpress_app/static/js/runtime-main.72ff27e0.js.map",
-    "static/js/2.a0454af7.chunk.js": "/enthec_planetExpress_app/static/js/2.a0454af7.chunk.js",
-    "static/js/2.a0454af7.chunk.js.map": "/enthec_planetExpress_app/static/js/2.a0454af7.chunk.js.map",
-    "static/js/3.d6e40f67.chunk.js": "/enthec_planetExpress_app/static/js/3.d6e40f67.chunk.js",
-    "static/js/3.d6e40f67.chunk.js.map": "/enthec_planetExpress_app/static/js/3.d6e40f67.chunk.js.map",
+    "main.css": "/enthec_planetExpress_app/static/css/main.eed98c47.chunk.css",
+    "main.js": "/enthec_planetExpress_app/static/js/main.c79d3cbf.chunk.js",
+    "main.js.map": "/enthec_planetExpress_app/static/js/main.c79d3cbf.chunk.js.map",
+    "runtime-main.js": "/enthec_planetExpress_app/static/js/runtime-main.84ef2638.js",
+    "runtime-main.js.map": "/enthec_planetExpress_app/static/js/runtime-main.84ef2638.js.map",
+    "static/js/2.df24596e.chunk.js": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js",
+    "static/js/2.df24596e.chunk.js.map": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js.map",
+    "static/js/3.cd8fce2c.chunk.js": "/enthec_planetExpress_app/static/js/3.cd8fce2c.chunk.js",
+    "static/js/3.cd8fce2c.chunk.js.map": "/enthec_planetExpress_app/static/js/3.cd8fce2c.chunk.js.map",
     "index.html": "/enthec_planetExpress_app/index.html",
-    "static/css/main.42f4361a.chunk.css.map": "/enthec_planetExpress_app/static/css/main.42f4361a.chunk.css.map",
-    "static/js/2.a0454af7.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.a0454af7.chunk.js.LICENSE.txt",
+    "static/css/main.eed98c47.chunk.css.map": "/enthec_planetExpress_app/static/css/main.eed98c47.chunk.css.map",
+    "static/js/2.df24596e.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js.LICENSE.txt",
     "static/media/camiseta.135f01df.jpg": "/enthec_planetExpress_app/static/media/camiseta.135f01df.jpg",
     "static/media/camiseta_gris.6dccb286.jpg": "/enthec_planetExpress_app/static/media/camiseta_gris.6dccb286.jpg",
     "static/media/camiseta_roja.fde1e9fc.jpg": "/enthec_planetExpress_app/static/media/camiseta_roja.fde1e9fc.jpg",
+    "static/media/check.fc4c11da.jpg": "/enthec_planetExpress_app/static/media/check.fc4c11da.jpg",
     "static/media/gorra_de_beisbol.99c7c2de.jpg": "/enthec_planetExpress_app/static/media/gorra_de_beisbol.99c7c2de.jpg",
     "static/media/logo.cab5d44d.png": "/enthec_planetExpress_app/static/media/logo.cab5d44d.png",
     "static/media/newsletter.19ec998d.png": "/enthec_planetExpress_app/static/media/newsletter.19ec998d.png",
@@ -24,9 +25,9 @@
     "static/media/taza.29519f49.jpeg": "/enthec_planetExpress_app/static/media/taza.29519f49.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.72ff27e0.js",
-    "static/js/2.a0454af7.chunk.js",
-    "static/css/main.42f4361a.chunk.css",
-    "static/js/main.23fece98.chunk.js"
+    "static/js/runtime-main.84ef2638.js",
+    "static/js/2.df24596e.chunk.js",
+    "static/css/main.eed98c47.chunk.css",
+    "static/js/main.c79d3cbf.chunk.js"
   ]
 }
