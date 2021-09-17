@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/enthec_planetExpress_app/static/css/main.eed98c47.chunk.css",
-    "main.js": "/enthec_planetExpress_app/static/js/main.c79d3cbf.chunk.js",
-    "main.js.map": "/enthec_planetExpress_app/static/js/main.c79d3cbf.chunk.js.map",
+    "main.css": "/enthec_planetExpress_app/static/css/main.9315a003.chunk.css",
+    "main.js": "/enthec_planetExpress_app/static/js/main.825c339d.chunk.js",
+    "main.js.map": "/enthec_planetExpress_app/static/js/main.825c339d.chunk.js.map",
     "runtime-main.js": "/enthec_planetExpress_app/static/js/runtime-main.84ef2638.js",
     "runtime-main.js.map": "/enthec_planetExpress_app/static/js/runtime-main.84ef2638.js.map",
-    "static/js/2.df24596e.chunk.js": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js",
-    "static/js/2.df24596e.chunk.js.map": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js.map",
+    "static/js/2.0a5875c8.chunk.js": "/enthec_planetExpress_app/static/js/2.0a5875c8.chunk.js",
+    "static/js/2.0a5875c8.chunk.js.map": "/enthec_planetExpress_app/static/js/2.0a5875c8.chunk.js.map",
     "static/js/3.cd8fce2c.chunk.js": "/enthec_planetExpress_app/static/js/3.cd8fce2c.chunk.js",
     "static/js/3.cd8fce2c.chunk.js.map": "/enthec_planetExpress_app/static/js/3.cd8fce2c.chunk.js.map",
     "index.html": "/enthec_planetExpress_app/index.html",
-    "static/css/main.eed98c47.chunk.css.map": "/enthec_planetExpress_app/static/css/main.eed98c47.chunk.css.map",
-    "static/js/2.df24596e.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.df24596e.chunk.js.LICENSE.txt",
+    "static/css/main.9315a003.chunk.css.map": "/enthec_planetExpress_app/static/css/main.9315a003.chunk.css.map",
+    "static/js/2.0a5875c8.chunk.js.LICENSE.txt": "/enthec_planetExpress_app/static/js/2.0a5875c8.chunk.js.LICENSE.txt",
     "static/media/camiseta.135f01df.jpg": "/enthec_planetExpress_app/static/media/camiseta.135f01df.jpg",
     "static/media/camiseta_gris.6dccb286.jpg": "/enthec_planetExpress_app/static/media/camiseta_gris.6dccb286.jpg",
     "static/media/camiseta_roja.fde1e9fc.jpg": "/enthec_planetExpress_app/static/media/camiseta_roja.fde1e9fc.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.84ef2638.js",
-    "static/js/2.df24596e.chunk.js",
-    "static/css/main.eed98c47.chunk.css",
-    "static/js/main.c79d3cbf.chunk.js"
+    "static/js/2.0a5875c8.chunk.js",
+    "static/css/main.9315a003.chunk.css",
+    "static/js/main.825c339d.chunk.js"
   ]
 }
