@@ -14,7 +14,11 @@ function ShoppingCart({ cart, onClick }) {
             <h3 className={styles.cart_subtitle}>Productos en el carrito</h3>
             <div className={styles.list}>
               {cart.map((article, idx) => (
-                <CartItem key={idx} article={article} />
+                <CartItem
+                  key={idx}
+                  article={article}
+                  onDeleteToCart={onClick}
+                />
               ))}
             </div>
           </div>

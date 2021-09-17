@@ -1,9 +1,17 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-// import Button from "../../../components/Button";
+import Button from "../../../components/Button";
 import formatter from "../../../helpers/formatter";
 import styles from "./CartItem.module.scss";
 
-function CartItem({ article }) {
+function CartItem({ article, onDeleteToCart }) {
+  const [select, setSelect] = useState([article]);
+
+  const onDeleteSelect = () => {
+    setSelect("");
+    // onDeleteToCart("");
+    console.log(article);
+  };
   return (
     <div>
       <div className={styles.box}>
@@ -17,8 +25,8 @@ function CartItem({ article }) {
             {formatter.format(article.price)}
             <span> (1 unidad)</span>
           </div>
-          {/* <Button label="X" /> */}
         </div>
+        <Button label="X" select={select} onClick={onDeleteSelect} />
       </div>
     </div>
   );

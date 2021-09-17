@@ -12,7 +12,9 @@ function Modal({ state, changesState }) {
               <img src={check} alt="check" className={styles.check} />
               <h3>Se ha añadido un nuevo artículo a tu Cesta.</h3>
             </div>
-            <Button label="Aceptar" onClick={() => changesState(false)} />
+            <div className={styles.boxButton}>
+              <Button label="Aceptar" onClick={() => changesState(false)} />
+            </div>
           </div>
         </div>
       )}

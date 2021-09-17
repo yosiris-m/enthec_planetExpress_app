@@ -21,7 +21,7 @@ function Header({ setFilterText, cart }) {
 
       <SearchBox onTextChange={(text) => setFilterText(text)} />
       <p className={styles.sendBox}>
-        Envio gratis por compra superiores a 45.99€
+        Muchas gracias por tu visita!. Elige el artículo de tu preferencia.
       </p>
     </header>
   );
