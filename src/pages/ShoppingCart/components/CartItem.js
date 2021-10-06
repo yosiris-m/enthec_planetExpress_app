@@ -26,7 +26,7 @@ function CartItem({ article, onDeleteToCart }) {
             <span> (1 unidad)</span>
           </div>
         </div>
-        <Button label="X" select={select} onClick={onDeleteSelect} />
+        {/* <Button label="X" select={select} onClick={onDeleteSelect} /> */}
       </div>
     </div>
   );

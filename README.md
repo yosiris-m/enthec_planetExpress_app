@@ -1,6 +1,6 @@
 # Frontend Challenge
 
-In this repository you will find the source code for the Enthec Solutions front-end challenge.
+In this repository you will find the source code as a front-end challenge.
 
 **Website**: https://yosiris-m.github.io/enthec_planetExpress_app/
 
