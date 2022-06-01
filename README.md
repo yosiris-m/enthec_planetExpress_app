@@ -1,6 +1,5 @@
 # Frontend Challenge
 
-In this repository you will find the source code as a front-end challenge.
 
 **Website**: https://yosiris-m.github.io/enthec_planetExpress_app/
 
@@ -12,7 +11,7 @@ In this repository you will find the source code as a front-end challenge.
 - Subscribe to newsletter section
 - Section indicating the number of packages, weight and price.
 - Responsive
-- **Bonus**: Show employees using this API: https://futuramaapi.herokuapp.com/
+
 
 ## Build with
 
