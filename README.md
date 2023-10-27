@@ -1,7 +1,6 @@
 # /Planet Express
 
 
-**Website**: https://yosiris-m.github.io/enthec_planetExpress_app/
 
 ![Screenshot](img/screenshot.png)
 
